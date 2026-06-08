@@ -1,0 +1,13 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-sg.uvraj.online
+REDIS_HOST: redis.uvraj.online
+MYSQL_HOST: mysql.uvraj.online
+RABBITMQ_HOST: rabbitmq.uvraj.online
+CATALOGUE_HOST: catalogue.uvraj.online
+USER_HOST: user.uvraj.online
+CART_HOST: cart.uvraj.online
+SHIPPING_HOST: shipping.uvraj.online
+PAYMENT_HOST: payment.uvraj.online
+
+
