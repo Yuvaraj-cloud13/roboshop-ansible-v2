@@ -1,0 +1,21 @@
+- name: nodejs setup
+  import_role:
+    name: common
+    tasks_from: nodejs
+
+- name: application setup
+  import_role:
+    name: common
+    tasks_from: app-setup
+
+- name: systemd setup
+  import_role:
+    name: common
+    tasks_from: systemd-setup
+
+
+- name: restart setup
+  import_role:
+    name: common
+    tasks_from: restart
+
